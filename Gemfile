@@ -1,20 +1,33 @@
 source 'https://rubygems.org'
 
+gem 'apexcharts'
 gem 'audited'
+gem 'aws-sdk-s3'
 gem 'bootsnap', require: false
+gem 'chartkick'
+gem 'cocoon'
 gem 'devise'
+gem 'devise-security'
 gem 'enum_help'
+gem 'friendly_id'
+gem 'i18n'
 gem 'image_processing', '~> 1.2'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
 gem 'kredis'
+gem 'money'
 gem 'name_of_person'
+gem 'noticed'
+gem 'papertrail'
 gem 'paranoia'
 gem 'pg', '~> 1.1'
 gem 'propshaft'
 gem 'puma', '>= 5.0'
 gem 'rails', '~> 8.0.0'
+gem 'rails-i18n'
+gem 'roo'
+gem 'roo-xls'
 gem 'solid_cable'
 gem 'solid_cache'
 gem 'solid_queue'
@@ -22,12 +35,13 @@ gem 'stimulus-rails'
 gem 'thruster', require: false
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[windows jruby]
-gem 'friendly_id'
-gem 'devise-security'
+gem 'wicked'
+gem 'wicked_pdf'
 
 group :development, :test do
   gem 'annotaterb'
   gem 'brakeman', require: false
+  gem 'database_cleaner'
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
   gem 'faker'
   gem 'rails-controller-testing'
@@ -49,6 +63,9 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'factory_bot_rails'
+  gem 'fuubar'
   gem 'selenium-webdriver'
+  gem 'shoulda-matchers'
   gem 'webdrivers'
 end
