@@ -34,3 +34,10 @@
 /config/master.key
 /.idea/*
 /log/.keep
+tmp/storage/
+
+tmp/
+
+storage/
+
+.DS_Store
