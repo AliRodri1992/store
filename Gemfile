@@ -3,10 +3,12 @@ source 'https://rubygems.org'
 gem 'audited'
 gem 'bootsnap', require: false
 gem 'devise'
+gem 'enum_help'
 gem 'image_processing', '~> 1.2'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
+gem 'kredis'
 gem 'paranoia'
 gem 'pg', '~> 1.1'
 gem 'propshaft'
@@ -21,6 +23,7 @@ gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[windows jruby]
 
 group :development, :test do
+  gem 'annotate'
   gem 'brakeman', require: false
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
   gem 'rspec-rails'
