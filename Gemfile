@@ -9,6 +9,7 @@ gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
 gem 'kredis'
+gem 'name_of_person'
 gem 'paranoia'
 gem 'pg', '~> 1.1'
 gem 'propshaft'
@@ -26,6 +27,8 @@ group :development, :test do
   gem 'annotaterb'
   gem 'brakeman', require: false
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
+  gem 'faker'
+  gem 'rails-controller-testing'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
@@ -34,10 +37,16 @@ group :development, :test do
 end
 
 group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'bundler-audit'
+  gem 'i18n-tasks'
+  gem 'letter_opener_web'
   gem 'web-console'
 end
 
 group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'webdrivers'
 end
