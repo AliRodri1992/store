@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'audited'
 gem 'bootsnap', require: false
 gem 'devise'
 gem 'image_processing', '~> 1.2'
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
+gem 'paranoia'
 gem 'pg', '~> 1.1'
 gem 'propshaft'
 gem 'puma', '>= 5.0'
