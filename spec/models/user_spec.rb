@@ -24,6 +24,7 @@
 #  username               :string
 #  created_at             :datetime         not null
 #  updated_at             :datetime         not null
+#  unique_session_id      :string
 #
 # Indexes
 #
