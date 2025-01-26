@@ -126,6 +126,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-security (0.18.0)
+      devise (>= 4.3.0)
     diff-lcs (1.5.1)
     dotenv (3.1.4)
     drb (2.2.1)
@@ -143,6 +145,8 @@ GEM
     ffi (1.17.0-x86-linux-gnu)
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
+    friendly_id (5.5.1)
+      activerecord (>= 4.0.0)
     fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
@@ -467,8 +471,10 @@ DEPENDENCIES
   capybara
   debug
   devise
+  devise-security
   enum_help
   faker
+  friendly_id
   i18n-tasks
   image_processing (~> 1.2)
   importmap-rails
